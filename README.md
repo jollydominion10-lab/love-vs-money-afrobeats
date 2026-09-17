@@ -19,3 +19,14 @@ I used Python and pandas to label each title as love, money, both, or other, the
 ```bash
 pip install -r requirements.txt
 python analyze.py
+```
+
+## Findings
+- Most titles were **other** (30 of 40). They did not use love or money words.
+- Love titles: **8**
+- Money titles: **2**
+- After 2020, love titles were still more common than money titles (6 love, 2 money)
+- Simple conclusion: in this sample, Afrobeats titles are usually not the words “love” or “money”. When they are, love shows up more than money.
+
+## Limit
+Titles are not the same as lyrics. A song called Calm Down can still be about love.
